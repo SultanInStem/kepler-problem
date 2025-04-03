@@ -1,0 +1,2 @@
+SCREEN_SIZE = (1200, 800)
+BG_COLOR = (0,0,0)
