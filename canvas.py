@@ -19,7 +19,9 @@ class Canvas:
         pygame.display.flip()
         self.clock.tick(self.fps)
     def handle_events(self): 
-        pass
+        for event in pygame.event.get(): 
+            if event.type == pygame.QUIT: 
+                self.running = False 
 
     def run(self):
         while(self.running): 
