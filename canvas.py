@@ -13,6 +13,8 @@ class Canvas:
              
     def update(self): 
         pass 
+
+    
     def render(self): 
         self.screen.fill(BG_COLOR)
 
